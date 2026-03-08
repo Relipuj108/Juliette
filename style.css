@@ -313,3 +313,13 @@ button#unlockBtn{
     min-width: 160px;
   }
 }
+
+.book-card.is-selected .book-card__body{
+  background: #4ade80;
+  animation: selectFlash 0.25s ease;
+}
+
+@keyframes selectFlash{
+  0%{ transform: scale(1.02); }
+  100%{ transform: scale(1); }
+}
