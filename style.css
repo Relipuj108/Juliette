@@ -288,7 +288,7 @@ button#unlockBtn{
 }
 
 .book-card.is-selected .book-card__title{
-  color: #466553;
+    color: #064e3b;
 }
 
 @media (max-width: 600px){
